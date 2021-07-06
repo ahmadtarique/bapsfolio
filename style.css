@@ -1,0 +1,199 @@
+body {
+    margin: 0;
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+footer {
+    background-color: salmon;
+    height: 100%;
+    margin-top: 50px;
+}
+
+footer p {
+    text-align: center;
+}
+
+#full-stack {
+    border-left: 8px solid;
+    border-image: linear-gradient(lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+#baby-web {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+.introduction-part {
+    background-image: url("images/bg-04.jpg");
+}
+
+.flexible-container {
+    display: flex;
+}
+
+.half-width {
+    max-width: 50%;
+    padding-left: 75px;
+    padding-right: 50px;
+    margin: auto;
+}
+
+/* .half-width img{
+    max-height: 50%;
+    max-width: 50%;
+    padding-left: 50px;
+} */
+
+.link-button {
+    text-decoration: none;
+    padding: 10px 40px;
+    background-image: linear-gradient(lightsalmon, tomato);
+    border-radius: 7px;
+    color: white;
+    font-weight: 700;
+}
+
+.about-part {
+    background-image: url("images/bg-01.png");
+    margin-bottom: 10px;
+}
+
+.experience-part {
+    background-image: url("images/dream-bg.png");
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: bottom;
+}
+
+.card {
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+    /* box-shadow: 10px 10px 15px gray; */
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+    border-radius: 20px;
+    width: 40%;
+    padding: 10px;
+}
+
+.card img {
+    border: 2px solid gray;
+    border-radius: 20px;
+    max-width: 90%;
+    margin-top: 10px;
+}
+
+.container {
+    text-align: center;
+    padding: 2px 16px;
+}
+
+.container p {
+    font-size: small;
+}
+
+.color {
+    color: indianred;
+    font-weight: 500;
+    font-size: 42px;
+}
+
+.skills-part {
+    background-image: url("images/exp-bg.png");
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-y: bottom;
+}
+
+/* .skills-item {
+    width: 40%;
+    box-shadow: 10px 10px 15px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    border-radius: 10px;
+} */
+
+.skills-card {
+    display: inline-block;
+    background-color: transparent;
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    border: 1px solid #ffffffa2;
+    /* width: 20%; */
+    box-shadow: 10px 10px 15px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    /* border-radius: 10px; */
+}
+
+.skills-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.skills-card:hover .skills-card-inner {
+    transform: rotateY(180deg);
+}
+
+.skills-card-front,
+.skills-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.skills-card-front {
+    /* background-color: #bbb; */
+    color: black;
+}
+
+.skills-card-back {
+    background-color: rgba(255, 255, 255, 0.096);
+    /* color: white; */
+    transform: rotateY(180deg);
+    border-radius: 10px;
+    /* padding: 10px; */
+    padding-left: 2px;
+    padding-right: 3px;
+}
+
+.contact {
+    padding-bottom: 70px;
+}
+
+.contact-content {
+    text-align: center;
+    padding-top: 35px;
+}
+
+.contact-title {
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 42px;
+    margin-bottom: 12px;
+}
+
+.contact-email {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.contact-link {
+    display: inline-block;
+    margin: 0 8px;
+}
